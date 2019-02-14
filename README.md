@@ -14,3 +14,6 @@ Given the goal position, dynamic programming can provide the optimal costs for i
 
 $f(x,y)=\min_{x',y'}f(x',y')+1$, where $f(x',y')$ is the optimal neighbor and 1 is the update cost of each step.
 
+
+## Hybrid A*
+hybrid A* is an optimal path searching in a continuous configuration space for the application in real world, while convention A* is in a discrete space. By the integration of motion model, it can make the trajectory smoothly and drivable. However, it may fail to find the optimal path. Below is the python version of hybrid A* introduced in the self driving car nanodegree
